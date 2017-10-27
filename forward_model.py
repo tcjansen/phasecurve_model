@@ -458,6 +458,8 @@ def run(phase, Ab, eps, f, kappa, xi1, xi2, Rp, Rs, Ts, semi_a, \
 		Rs (float): radius of the star [Solar radii]
 		Ts (float): effective temperature of the star [K]
 		semi_a (float): semi major axis of the planet [AU]
+		res (int): long/lat resolution. splits planetary surface up into 
+			[180 / res]-square degree grids. default = 15 degree^2 grids
 		therm (bool): Returns the thermal component of the model if True
 		s_reflection (bool): Returns the symmetric reflection component of 
 			the model if True
