@@ -1,5 +1,7 @@
 ## Example of using forward_model.py
-Create your own explanet phase curve models!
+Create your own exoplanet phase curve models!
+
+> NOTE: This is specifically for modeling a noise-less phase curve as observed **in the Kepler waveband**
 
 In this example we create a thermal + symmetric reflection phase curve model with a fairly high thermal redistribution.
 You can choose to create the thermal, symmetric reflection, and asymmetric reflection components of the phase curve separately, or you can create a sum of any of these components - it's up to you.
